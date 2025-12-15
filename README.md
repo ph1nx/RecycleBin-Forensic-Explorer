@@ -263,48 +263,16 @@ Build comprehensive timelines involving file deletion events. Correlate with oth
 - **Defensive parsing**: Fails visibly rather than silently on errors
 - **Court-defensible exports**: Human-readable reports with full provenance
 
-## 🖥️ Cross-Version Compatibility
 
-Tested and validated on:
-- Windows 7
-- Windows 8 / 8.1
-- Windows 10
-- Windows 11
-
-Handles multiple `$I` file format variations across OS versions with defensive parsing to avoid silent failures.
-
-## 🛠️ Technology Stack
-
-- **Python 3.8+**: Core application logic
-- **PySide6 (Qt)**: Professional GUI framework
-- **pyewf**: E01 forensic image handling
-- **pytsk3**: Filesystem analysis from disk images
-- **Binary parsing**: Custom $I file format parser for all Windows versions
-- **CSV/JSON**: Standard export formats for interoperability
 
 ## 🤝 Contributing
 
 Contributions are welcome! Whether you're fixing bugs, improving documentation, or adding new features:
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🏆 Design Principles
-
-- **Investigator workflow** over raw artifact dumps
-- **Context preservation** over flat metadata
-- **Human-readable exports** over internal filenames
-- **Accuracy and defensibility** prioritized over automation shortcuts
-- **Fail visibly** rather than silently to maintain evidence integrity
-
----
 
 ⭐ **Star this repository if you find it helpful for your forensic investigations!**
 
