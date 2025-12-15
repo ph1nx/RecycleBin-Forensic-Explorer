@@ -1,0 +1,5 @@
+PySide6
+libewf-python
+pytsk3
+pywin32
+tzdata
